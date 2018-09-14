@@ -22,7 +22,7 @@ class UsersTableSeeder extends Seeder
 
         $client = Passport::client()->forceFill([
             'user_id' => $user->id,
-            'name' => 'AyoBos',
+            'name' => 'devmaster',
             'secret' => 'aC2PpFiwZh5pGonEp3ezm9JuidZhEkruft1gKYMF', //str_random(40),
             'personal_access_client' => false,
             'password_client' => true,
